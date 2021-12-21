@@ -6,33 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Add favicon -->
     <title>Akshit Kumar Gautam</title>
-    <link rel="stylesheet" href="./src/index.css" />
+    <link rel="stylesheet" href="./src/css/index.css" />
   </head>
   <body>
     <!-- make it scrollable -->
       <!-- add signature on the left top-->
       <!-- add page routes in cenetry-left (use flex and then see)-->
       <div class='header'>
-          <h1>Akshit</h1>
+          <div class='header__logo'>
+            <img class='header__logo_signature' src="./assets/images/signature.png" alt="Akshit">
+          </div>
+          
           <nav class='top_navbar'>
               <ul class='top_navbar__list'>
                   <!-- align them row wise -->
-                    <li class='top_navbar__list__item'>
-                        <button class='top_navbar__list__item_button'>
-                            About me
-                        </button>
-                    </li>
-                    <li class='top_navbar__list__item'>
-                        <button class='top_navbar__list__item_button'>
-                            Hobbies
-                        </button>
-                    </li>
-                    <li class='top_navbar__list__item'>
-                        <button class='top_navbar__list__item_button'>
-                            Experience
-                        </button>
-                    </li>
                     
+                    <a href="./src/pages/aboutme.html">
+                        <li class='top_navbar__list__item'>
+                            <button class='top_navbar__list__item_button'>
+                                About me
+                            </button>
+                        </li>
+                    </a>
+                            
+                    <a href="./src/pages/hobbies.html">
+                        <li class='top_navbar__list__item'>
+                            <button class='top_navbar__list__item_button'>
+                                Hobbies
+                            </button>
+                        </li>
+                    </a>
+
+                    <a href="./src/pages/newsletter.html">
+                        <li class='top_navbar__list__item'>
+                            <button class='top_navbar__list__item_button'>
+                                Newsletter
+                            </button>
+                        </li>
+                    </a>
               </ul>
           </nav>
       </div>

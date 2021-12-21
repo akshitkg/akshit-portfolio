@@ -6,22 +6,56 @@
 /* Header */
 .header {
   display: flex;
-  justify-content: space-between;
+  height: 80px;
+  /* justify-cont */
+  /* justify-con; */
   align-items: center;
   background-color: rgb(143, 216, 133);
 }
 
+.header__logo {
+  /* object-fit: contain; */
+  margin-right: 20%;
+}
+
+.header__logo_signature {
+  height: 80px;
+  object-fit: contain;
+  /* is it responsive? */
+}
+
 .top_navbar {
-  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-right: 20%;
+  /* background-color: blueviolet; */
+  justify-content: space-between;
 }
 
 .top_navbar__list {
-  display: var(flex);
+  display: flex;
+  /* font-size; */
+  justify-content: space-between;
+  /* display: var(flex); */
   /* align-items: center; */
+  align-items: flex-end;
   list-style: none;
   /* align-items: flex-end; */
 
   /* align them row-wise */
+}
+
+.top_navbar__list__item_button{
+  display: block
+  /* font-size: 40px; */
+  width: 100%;
+  border: none;
+  /* background-color: #04AA6D; */
+  /* padding: 14px 28px; */
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
 
 /* Site-Hero */
@@ -68,8 +102,8 @@
   background-color: rgb(149, 236, 35);
 }
 
-.footer{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(219, 51, 51);
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(219, 51, 51);
 }
