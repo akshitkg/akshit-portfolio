@@ -6,29 +6,59 @@
 /* Header */
 .header {
   display: flex;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
   background-color: rgb(143, 216, 133);
 }
 
-.top_navbar {
-  background-color: blueviolet;
+.header_logo {
+  margin-right: 20%;
+  padding: 10px;
 }
 
-.top_navbar__list {
-  display: var(flex);
-  /* align-items: center; */
-  list-style: none;
-  /* align-items: flex-end; */
+#header_logo__img {
+  height: 80px;
+  object-fit: contain;
+  /* is it responsive? */
+}
 
-  /* align them row-wise */
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-right: 10%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+.navbar_items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 370px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navbar_items__item_button{
+  border: 0px;
+  width: 100%;
+  padding: 0px;
+  background-color: transparent;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }
 
 /* Site-Hero */
 .site_hero {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  /* align-items: stretch; */
   background-color: aqua;
   margin-top: 10px;
   margin-left: 10px;
@@ -52,9 +82,13 @@
 /* Make the hero image more acceptable */
 #hero_image {
   object-fit: contain;
-  height: 40%;
-  width: 40%;
-  border-radius: 50px;
+  height: 200px;
+  /* width: 40%; */
+  border-radius: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 40px;
 }
 
 /* That description/overview of articles and work experience and projects */
@@ -68,8 +102,8 @@
   background-color: rgb(149, 236, 35);
 }
 
-.footer{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(219, 51, 51);
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(219, 51, 51);
 }
