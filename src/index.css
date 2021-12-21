@@ -1,0 +1,75 @@
+#body_div {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(143, 216, 133);
+}
+
+.top_navbar {
+  background-color: blueviolet;
+}
+
+.top_navbar__list {
+  display: var(flex);
+  /* align-items: center; */
+  list-style: none;
+  /* align-items: flex-end; */
+
+  /* align them row-wise */
+}
+
+/* Site-Hero */
+.site_hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: aqua;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Site Hero Bio */
+.site_hero__bio {
+}
+
+/* Site Hero Image */
+.site_hero__image {
+  width: inherit;
+  /* height: inherit; */
+  align-self: flex-end;
+  /* object-fit: contain; */
+  /* height: inherit; */
+  /* width: inherit; */
+}
+
+/* Make the hero image more acceptable */
+#hero_image {
+  object-fit: contain;
+  height: 40%;
+  width: 40%;
+  border-radius: 50px;
+}
+
+/* That description/overview of articles and work experience and projects */
+.brief_description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(149, 236, 35);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 51, 51);
+}
