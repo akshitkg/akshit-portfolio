@@ -4,10 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Add favicon -->
+    <!-- change favicon -->
 
     <title>Akshit Kumar Gautam</title>
     <link rel="stylesheet" href="./src/css/index.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/signature_white.png">
   </head>
   <body>
       <div class='header'>
@@ -15,45 +16,53 @@
             <a href="./index.html"><img id='header_logo__img'src="./assets/images/signature.png" alt="Akshit"></a>
           </div>
           
-          <nav class='navbar'>
-              <ul class='navbar_items'>
-                  <!-- align them row wise -->
-                    
-                    <a href="./src/pages/aboutme.html">
-                        <li class='navbar_items__item'>
-                            <button class='navbar_items__item_button'>
-                                About me
-                            </button>
-                        </li>
-                    </a>
-                            
-                    <a href="./src/pages/interests.html">
-                        <li class='navbar_items__item'>
-                            <button class='navbar_items__item_button'>
-                                Interests
-                            </button>
-                        </li>
-                    </a>
-
-                    <a href="./src/pages/newsletter.html">
-                        <li class='navbar_items__item'>
-                            <button class='navbar_items__item_button'>
-                                Newsletter
-                            </button>
-                        </li>
-                    </a>
-              </ul>
-          </nav>
+          <div class='navbar_container'>
+            <nav class='navbar'>
+                <ul class='navbar_items'>
+                    <!-- align them row wise -->
+                      
+                      <a href="./src/pages/aboutme.html">
+                          <li class='navbar_items__item'>
+                              <button class='navbar_items__item_button'>
+                                  About me
+                              </button>
+                          </li>
+                      </a>
+                              
+                      <a href="./src/pages/interests.html">
+                          <li class='navbar_items__item'>
+                              <button class='navbar_items__item_button'>
+                                  Interests
+                              </button>
+                          </li>
+                      </a>
+  
+                      <a href="./src/pages/newsletter.html">
+                          <li class='navbar_items__item'>
+                              <button class='navbar_items__item_button'>
+                                  Newsletter
+                              </button>
+                          </li>
+                      </a>
+                </ul>
+            </nav>
+          </div>
+          
       </div>
 
-      <div class='site_hero'>
-          <div class=site_hero__bio>
-              <h4>Akshit Kumar Gautam</h4>
-              <p>I am Akshit and I like tinkering with technology, gaining new insights, perceptions and mindsets</p>
+      <div class='hero'>
+          <div class=hero_bio>
+              <h1>Hey Friends</h1>
+              <h2>I am Akshit</h2>
+              <h4> and I am always interested in learning new skills </h4>
             <h6>Insert newsletter subscribe button and also lemme read it first button and also promise of NO SPAM; Cool😎</h6>
+            <div id='substack_subscribe'>
+                <iframe src="https://akshitkumargautam.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+            </div>
           </div>
-          <div class='site_hero__image'>
-              <img id='hero_image' src="./assets/images/akshits_image.png" alt="">
+
+          <div class='hero_image'>
+              <img id='hero_image_' src="./assets/images/akshits_image.png" alt="">
           </div>
       </div>
       
@@ -76,34 +85,37 @@
 
       </div>
       <footer class='footer'>
-          <div class='footer__copyright'>
-              <h4>© Akshit Kumar Gautam</h4>
-              <h4>Contact to hire me for any project, internship or a remote job</h4>
+          <div class='footer_container'>
+            <div class='footer__copyright'>
+                <h4>© Akshit Kumar Gautam</h4>
+                <h4>Contact to hire me for any project, internship or a remote job</h4>
+            </div>
+            
+            <div class='footer_contactme'>
+                <h4>Contact me</h4>
+                <ul>
+                    <li>Leave a note</li>
+                    <li>Telegram Bot</li>
+                    <li>*think more options</li>
+                    <li>mail me</li>
+                </ul>
+            </div>
+  
+            <div class='footer_SiteHandles'>
+                <ul>
+                    <li>twitter</li>
+                    <li>instagram</li>
+                    <li>linekdin</li>
+                    <li>reddit</li>
+                    <li>discord</li>
+                    <li>github</li>
+                    <li>telegram</li>
+                    <li>*use logos</li>
+                    <!-- <li></li> -->
+                </ul>
+            </div>
           </div>
           
-          <div class='footer__contactme'>
-              <h4>Contact me</h4>
-              <ul>
-                  <li>Leave a note</li>
-                  <li>Telegram Bot</li>
-                  <li>*think more options</li>
-                  <li>mail me</li>
-              </ul>
-          </div>
-
-          <div class='footer__SiteHandles'>
-              <ul>
-                  <li>twitter</li>
-                  <li>instagram</li>
-                  <li>linekdin</li>
-                  <li>reddit</li>
-                  <li>discord</li>
-                  <li>github</li>
-                  <li>telegram</li>
-                  <li>*use logos</li>
-                  <!-- <li></li> -->
-              </ul>
-          </div>
       </footer>
   </body>
 </html>

@@ -1,15 +1,26 @@
-#body_div {
+/* #body_div {
   overflow-y: auto;
   overflow-x: hidden;
-}
+} */
 
 /* Header */
+
+:root{
+  --whitish: rgb(238, 235, 235);
+
+}
+
+body{
+  background-color: var(--whitish);
+}
+
 .header {
   display: flex;
+  border-radius: 10px;
   height: 80px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(143, 216, 133);
+  background-color: transparent;
 }
 
 .header_logo {
@@ -25,6 +36,7 @@
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-right: 10%;
   margin-top: 5px;
@@ -54,24 +66,37 @@
   text-align: center;
 }
 
+@media screen and (max-width: 870px){
+  .hero{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 /* Site-Hero */
-.site_hero {
+.hero {
   display: flex;
+  border-radius: 20px;
   justify-content: space-between;
-  /* align-items: stretch; */
-  background-color: aqua;
-  margin-top: 10px;
-  margin-left: 10px;
+  padding-left: 40px;
+  background-color: pink;
+  margin-top: 30px;
+  margin-left: 15px;
   margin-right: 10px;
 }
 
 /* Site Hero Bio */
-.site_hero__bio {
+.hero_bio {
+  padding: 50px;
+}
+
+h1.hero_bio{
+  font-size: 200px;
 }
 
 /* Site Hero Image */
-.site_hero__image {
-  width: inherit;
+.hero_image {
+  /* width: inherit; */
   /* height: inherit; */
   align-self: flex-end;
   /* object-fit: contain; */
@@ -80,11 +105,11 @@
 }
 
 /* Make the hero image more acceptable */
-#hero_image {
+#hero_image_ {
   object-fit: contain;
-  height: 200px;
+  height: 400px;
   /* width: 40%; */
-  border-radius: 100px;
+  border-radius: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
@@ -103,7 +128,14 @@
 }
 
 .footer {
+  width: 100%;
+  bottom: 0px;
+  background-color: rgb(219, 51, 51);
+}
+
+.footer_container{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(219, 51, 51);
+  flex-wrap: wrap;
+  padding: 20px;
 }
