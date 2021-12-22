@@ -10,9 +10,14 @@
 
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 body{
   background-color: var(--whitish);
   font-family: 'Raleway', sans-serif;
+  /* overflow-y: hidden; */
 }
 
 .hero_bio>h1{
@@ -95,7 +100,7 @@ body{
 .hero {
   display: flex;
   border-radius: 20px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-left: 40px;
   background-color: pink;
   margin-top: 30px;
@@ -103,32 +108,37 @@ body{
   margin-right: 10px;
 }
 
-.hero_info_container{
-  display: inline-grid;
-  
+.hero_container{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  /* grid-template-areas: "hey_friends" "hero_image" ""; */
 }
 
-#subscribe{
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
-  
+#hey_friends{
+  grid-area: hey_friends;
 }
-
-
-
+#my_name{
+  grid-area: my_name;
+}
+#newsletter_desc{
+  grid-area: newsletter_desc;
+}
+#subscribe_msg{
+  grid-area: subscribe_msg;
+}
 #subscribe_button{
-  background-color: yellow;
-  border: none;
-  cursor: pointer;
-  justify-self: flex;
-  /* width: 80px;
-  height: 50px; */
-  /* align-self: center; */
-  /* justify-self: center; */
-
-  
+  grid-area: subscribe_button;
 }
+#hero_image{
+  grid-area: hero_image;
+  height: 100px;
+}
+
+
+
+
+
+
 
 
 /* .hero_bio {
@@ -173,3 +183,4 @@ h1.hero_bio{
   flex-wrap: wrap;
   padding: 20px;
 }
+
