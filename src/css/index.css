@@ -15,14 +15,6 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
-<<<<<<< HEAD
-.hero_bio>h1{
-  font-weight: bold;
-
-}
-
-=======
->>>>>>> updating
 .svg-inline--fa_fa-book-skull{
   height: 25px;
   background-color: transparent;
@@ -84,60 +76,12 @@ body{
   text-align: center;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 870px){
-=======
 /* @media screen and (max-width: 870px){
->>>>>>> updating
   .hero{
     display: flex;
     flex-wrap: wrap;
   }
 
-<<<<<<< HEAD
-
-
-}
-
-/* Site-Hero */
-.hero {
-  display: flex;
-  border-radius: 20px;
-  justify-content: space-between;
-  padding-left: 40px;
-  background-color: pink;
-  margin-top: 30px;
-  margin-left: 15px;
-  margin-right: 10px;
-}
-
-.hero_info_container{
-  display: inline-grid;
-  
-}
-
-#subscribe{
-  display: flex;
-  flex-direction: column;
-  /* justify-content: space-between; */
-  
-}
-
-
-
-#subscribe_button{
-  background-color: yellow;
-  border: none;
-  cursor: pointer;
-  justify-self: flex;
-  /* width: 80px;
-  height: 50px; */
-  /* align-self: center; */
-  /* justify-self: center; */
-
-  
-}
-=======
 } */
 
 /* Site-Hero */
@@ -149,7 +93,6 @@ body{
 
 
 
->>>>>>> updating
 
 
 /* .hero_bio {
@@ -186,15 +129,6 @@ h1.hero_bio{
   width: 100%;
   bottom: 0px;
   background-color: rgb(219, 51, 51);
-<<<<<<< HEAD
-}
-
-.footer_container{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 20px;
-=======
 }
 
 .footer_container{
@@ -292,5 +226,4 @@ h1.hero_bio{
         display: flex;
         flex-wrap: wrap;
     }
->>>>>>> updating
 }
