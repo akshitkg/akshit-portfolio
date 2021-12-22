@@ -1,15 +1,41 @@
-#body_div {
+/* #body_div {
   overflow-y: auto;
   overflow-x: hidden;
-}
+} */
 
 /* Header */
+
+:root{
+  --whitish: rgb(238, 235, 235);
+
+}
+
+body{
+  background-color: var(--whitish);
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero_bio>h1{
+  font-weight: bold;
+
+}
+
+.svg-inline--fa_fa-book-skull{
+  height: 25px;
+  background-color: transparent;
+}
+
+.twitter_icon{
+  height: 25px;
+}
+
 .header {
   display: flex;
+  border-radius: 10px;
   height: 80px;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(143, 216, 133);
+  background-color: transparent;
 }
 
 .header_logo {
@@ -25,6 +51,7 @@
 
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-right: 10%;
   margin-top: 5px;
@@ -36,7 +63,7 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  width: 370px;
+  width: 400px;
   justify-content: space-between;
   list-style: none;
 }
@@ -54,44 +81,76 @@
   text-align: center;
 }
 
+@media screen and (max-width: 870px){
+  .hero{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+
+}
+
 /* Site-Hero */
-.site_hero {
+.hero {
   display: flex;
+  border-radius: 20px;
   justify-content: space-between;
-  /* align-items: stretch; */
-  background-color: aqua;
-  margin-top: 10px;
-  margin-left: 10px;
+  padding-left: 40px;
+  background-color: pink;
+  margin-top: 30px;
+  margin-left: 15px;
   margin-right: 10px;
 }
 
-/* Site Hero Bio */
-.site_hero__bio {
+.hero_info_container{
+  display: inline-grid;
+  
 }
 
-/* Site Hero Image */
-.site_hero__image {
-  width: inherit;
-  /* height: inherit; */
-  align-self: flex-end;
-  /* object-fit: contain; */
-  /* height: inherit; */
-  /* width: inherit; */
+#subscribe{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  
 }
 
-/* Make the hero image more acceptable */
-#hero_image {
+
+
+#subscribe_button{
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  justify-self: flex;
+  /* width: 80px;
+  height: 50px; */
+  /* align-self: center; */
+  /* justify-self: center; */
+
+  
+}
+
+
+/* .hero_bio {
+  padding: 50px;
+}
+
+h1.hero_bio{
+  font-size: 200px;
+}
+
+
+#hero_image_ {
   object-fit: contain;
-  height: 200px;
-  /* width: 40%; */
-  border-radius: 100px;
+  height: 400px;
+  border-radius: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 40px;
-}
+} */
 
-/* That description/overview of articles and work experience and projects */
+
 .brief_description {
   display: flex;
   justify-content: space-between;
@@ -103,7 +162,14 @@
 }
 
 .footer {
+  width: 100%;
+  bottom: 0px;
+  background-color: rgb(219, 51, 51);
+}
+
+.footer_container{
   display: flex;
   justify-content: space-between;
-  background-color: rgb(219, 51, 51);
+  flex-wrap: wrap;
+  padding: 20px;
 }
