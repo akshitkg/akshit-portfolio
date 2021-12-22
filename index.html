@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f86b0dfcd.js" crossorigin="anonymous"></script>
     <!-- change favicon -->
 
     <title>Akshit Kumar Gautam</title>
@@ -36,6 +38,14 @@
                               </button>
                           </li>
                       </a>
+
+                      <a href="./src/pages/contact.html">
+                        <li class='navbar_items__item'>
+                            <button class='navbar_items__item_button'>
+                                Contact
+                            </button>
+                        </li>
+                    </a>
   
                       <a href="./src/pages/newsletter.html">
                           <li class='navbar_items__item'>
@@ -51,18 +61,35 @@
       </div>
 
       <div class='hero'>
-          <div class=hero_bio>
-              <h1>Hey Friends</h1>
-              <h2>I am Akshit</h2>
-              <h4> and I am always interested in learning new skills </h4>
-            <h6>Insert newsletter subscribe button and also lemme read it first button and also promise of NO SPAM; Cool😎</h6>
-            <div id='substack_subscribe'>
-                <iframe src="https://akshitkumargautam.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-            </div>
+          <div class='hero_info_container'>
+              <div class='hero_info' id='hero_info_greetings'>
+                  <h1>Hey Friends 👋🏻</h1>
+              </div>
+              <div class='hero_info' id='greetings'>
+                  <h2>My name is Akshit Kumar Gautam
+                      and<br> I like learning and exploring new things
+                  </h2>
+              </div>    
+              <div class='hero_info' id='greetings'>
+                  <h4>I also have a newsletter where I put out some<br> interesting articles about my personal observations<br>and experiences.</h4>
+              </div>
+              <div class='hero_info' id='subscribe'>
+                  <h2>Subscribe to my Newsletter</h2>
+                  <div class='hero_info' id='subscribe_button_container'>
+                    <a href="./src/pages/newsletter.html">
+                        <button id='subscribe_button'>
+                            Subscribe
+                        </button>
+                    </a>
+                </div>
+              </div>
+              
           </div>
 
-          <div class='hero_image'>
-              <img id='hero_image_' src="./assets/images/akshits_image.png" alt="">
+          <div class='hero_image_container'>
+              <div class='hero_image'>
+
+              </div>
           </div>
       </div>
       
@@ -119,3 +146,25 @@
       </footer>
   </body>
 </html>
+
+
+<!-- Hero bio -->
+
+<!-- <div class=hero_bio>
+    <h1>Hey Friends</h1>
+    
+    <h2>I am Akshit Kumar Gautam</h2>
+    <h4> and I like learning and exploring new skills </h4>
+  <h6>Insert newsletter subscribe button and also lemme read it first button and also promise of NO SPAM; Cool😎</h6>
+  <div id='substack_subscribe'>
+      <iframe src="https://akshitkumargautam.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+  </div>
+</div> -->
+
+
+
+<!-- Hero Image -->
+
+<!-- <div class='hero_image'>
+    <img id='hero_image_' src="./assets/images/akshits_image.png" alt="">
+</div> -->

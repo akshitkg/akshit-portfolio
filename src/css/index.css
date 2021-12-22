@@ -12,6 +12,21 @@
 
 body{
   background-color: var(--whitish);
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero_bio>h1{
+  font-weight: bold;
+
+}
+
+.svg-inline--fa_fa-book-skull{
+  height: 25px;
+  background-color: transparent;
+}
+
+.twitter_icon{
+  height: 25px;
 }
 
 .header {
@@ -48,7 +63,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  width: 370px;
+  width: 400px;
   justify-content: space-between;
   list-style: none;
 }
@@ -71,6 +86,9 @@ body{
     display: flex;
     flex-wrap: wrap;
   }
+
+
+
 }
 
 /* Site-Hero */
@@ -85,8 +103,35 @@ body{
   margin-right: 10px;
 }
 
-/* Site Hero Bio */
-.hero_bio {
+.hero_info_container{
+  display: inline-grid;
+  
+}
+
+#subscribe{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  
+}
+
+
+
+#subscribe_button{
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+  justify-self: flex;
+  /* width: 80px;
+  height: 50px; */
+  /* align-self: center; */
+  /* justify-self: center; */
+
+  
+}
+
+
+/* .hero_bio {
   padding: 50px;
 }
 
@@ -94,29 +139,18 @@ h1.hero_bio{
   font-size: 200px;
 }
 
-/* Site Hero Image */
-.hero_image {
-  /* width: inherit; */
-  /* height: inherit; */
-  align-self: flex-end;
-  /* object-fit: contain; */
-  /* height: inherit; */
-  /* width: inherit; */
-}
 
-/* Make the hero image more acceptable */
 #hero_image_ {
   object-fit: contain;
   height: 400px;
-  /* width: 40%; */
   border-radius: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 40px;
-}
+} */
 
-/* That description/overview of articles and work experience and projects */
+
 .brief_description {
   display: flex;
   justify-content: space-between;
