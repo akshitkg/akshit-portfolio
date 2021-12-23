@@ -230,8 +230,6 @@ h1.hero_bio{
         display: flex;
         flex-wrap: wrap;
     }
-<<<<<<< HEAD
-=======
 }
 
 .quotes_container{
@@ -242,5 +240,4 @@ h1.hero_bio{
   margin-right: 2%;
   margin-top: 100px;
   margin-bottom: 100px;
->>>>>>> beta
 }
