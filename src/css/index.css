@@ -238,3 +238,13 @@ h1.hero_bio{
         flex-wrap: wrap;
     }
 }
+
+.quotes_container{
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
