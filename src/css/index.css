@@ -128,7 +128,7 @@ h1.hero_bio{
 .footer {
   width: 100%;
   bottom: 0px;
-  background-color: rgb(219, 51, 51);
+  background-color: rgb(0, 0, 0);
 }
 
 .footer_container{
@@ -137,6 +137,7 @@ h1.hero_bio{
   flex-wrap: wrap;
   padding: 20px;
 }
+
 
 /* Hero here onwards */
 
@@ -229,4 +230,17 @@ h1.hero_bio{
         display: flex;
         flex-wrap: wrap;
     }
+<<<<<<< HEAD
+=======
+}
+
+.quotes_container{
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+>>>>>>> beta
 }
