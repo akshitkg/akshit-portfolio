@@ -13,52 +13,24 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/signature_white.png">
   </head>
   <body>
-      <div class='header'>
-          <div class='header_logo'>
-            <a href="./index.html"><img id='header_logo__img'src="./assets/images/signature.png" alt="Akshit"></a>
-          </div>
-          
-          <div class='navbar_container'>
-            <nav class='navbar'>
-                <ul class='navbar_items'>
-                    <!-- align them row wise -->
-                      
-                      <a href="./src/pages/aboutme.html">
-                          <li class='navbar_items__item'>
-                              <button class='navbar_items__item_button'>
-                                  About me
-                              </button>
-                          </li>
-                      </a>
-                              
-                      <a href="./src/pages/interests.html">
-                          <li class='navbar_items__item'>
-                              <button class='navbar_items__item_button'>
-                                  Interests
-                              </button>
-                          </li>
-                      </a>
 
-                      <a href="./src/pages/contact.html">
-                        <li class='navbar_items__item'>
-                            <button class='navbar_items__item_button'>
-                                Contact
-                            </button>
-                        </li>
-                    </a>
-  
-                      <a href="./src/pages/newsletter.html">
-                          <li class='navbar_items__item'>
-                              <button class='navbar_items__item_button'>
-                                  Newsletter
-                              </button>
-                          </li>
-                      </a>
-                </ul>
-            </nav>
-          </div>
-          
-      </div>
+    <header>
+        <a href="./index.html"><img src="./assets/images/signature.png" alt=""></a>
+
+        <input type="checkbox" class='nav-toggle' id='nav-toggle'>
+
+        <nav id='nav_bar'>
+            <ul id='NavItems_list '>
+                <li class='nav_items'><a href="#">About Me</a></li>
+                <li class='nav_items'><a href="#">Interests</a></li>
+                <li class='nav_items'><a href="#">Contact</a></li>
+                <li class='nav_items'><a href="#">Newsletter</a></li>
+            </ul>
+        </nav>
+        <label for="nav-toggle" class=nav-toggle-label>
+            <span></span>
+        </label>
+    </header>
 
       <div class='hero_container'>
         <div class='hero_items'>
@@ -133,3 +105,51 @@
   </body>
 </html>
 
+
+<!-- Previous Header -->
+
+<!-- <div class='header'>
+    <div class='header_logo'>
+      <a href="./index.html"><img id='header_logo__img'src="./assets/images/signature.png" alt="Akshit"></a>
+    </div>
+    
+    <div class='navbar_container'>
+      <nav class='navbar'>
+          <ul class='navbar_items'>
+                
+                <a href="./src/pages/aboutme.html">
+                    <li class='navbar_items__item'>
+                        <button class='navbar_items__item_button'>
+                            About me
+                        </button>
+                    </li>
+                </a>
+                        
+                <a href="./src/pages/interests.html">
+                    <li class='navbar_items__item'>
+                        <button class='navbar_items__item_button'>
+                            Interests
+                        </button>
+                    </li>
+                </a>
+
+                <a href="./src/pages/contact.html">
+                  <li class='navbar_items__item'>
+                      <button class='navbar_items__item_button'>
+                          Contact
+                      </button>
+                  </li>
+              </a>
+
+                <a href="./src/pages/newsletter.html">
+                    <li class='navbar_items__item'>
+                        <button class='navbar_items__item_button'>
+                            Newsletter
+                        </button>
+                    </li>
+                </a>
+          </ul>
+      </nav>
+    </div>
+    
+</div> -->
