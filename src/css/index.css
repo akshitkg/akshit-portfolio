@@ -150,6 +150,9 @@ h1.hero_bio{
   margin-left: 2%;
   margin-right: 2%;
   justify-content: space-between;
+  background: #e0e0e0;
+  box-shadow:  24px 24px 35px #cecece,
+             -24px -24px 35px #f2f2f2;
 }
 
 .hero_items {
@@ -226,4 +229,14 @@ h1.hero_bio{
         display: flex;
         flex-wrap: wrap;
     }
+}
+
+.quotes_container{
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
