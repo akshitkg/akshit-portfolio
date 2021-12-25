@@ -5,22 +5,21 @@
 
 /* Header */
 
-:root{
+:root {
   --whitish: rgb(238, 235, 235);
-
 }
 
-body{
+body {
   background-color: var(--whitish);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-.svg-inline--fa_fa-book-skull{
+.svg-inline--fa_fa-book-skull {
   height: 25px;
   background-color: transparent;
 }
 
-.twitter_icon{
+.twitter_icon {
   height: 25px;
 }
 
@@ -63,7 +62,7 @@ body{
   list-style: none;
 }
 
-.navbar_items__item_button{
+.navbar_items__item_button {
   border: 0px;
   width: 100%;
   padding: 0px;
@@ -86,15 +85,6 @@ body{
 
 /* Site-Hero */
 
-
-
-
-
-
-
-
-
-
 /* .hero_bio {
   padding: 50px;
 }
@@ -114,7 +104,6 @@ h1.hero_bio{
   margin-left: 40px;
 } */
 
-
 .brief_description {
   display: flex;
   justify-content: space-between;
@@ -131,7 +120,7 @@ h1.hero_bio{
   background-color: rgb(0, 0, 0);
 }
 
-.footer_container{
+.footer_container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -152,8 +141,7 @@ h1.hero_bio{
   margin-right: 2%;
   justify-content: space-between;
   background: #e0e0e0;
-  box-shadow:  24px 24px 35px #cecece,
-             -24px -24px 35px #f2f2f2;
+  box-shadow: 24px 24px 35px #cecece, -24px -24px 35px #f2f2f2;
 }
 
 .hero_items {
@@ -166,7 +154,6 @@ h1.hero_bio{
 .newsletter_subscribe {
   display: flex;
   flex-direction: column;
-
 }
 
 #hello {
@@ -193,13 +180,11 @@ h1.hero_bio{
   height: 40px;
   border: none;
   border-radius: 10px;
-  
 }
 #no_spam {
   grid-area: no_spam;
   margin-top: 1px;
   padding-left: 4vw;
-
 }
 #headshot {
   margin-top: 5%;
@@ -214,25 +199,24 @@ h1.hero_bio{
   border-radius: 80%;
 }
 
-@media screen and (max-width:746px) {
-    #headshot{
-        width: 80%;
-        height: auto;
-        border-radius: 80%;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
-        /* margin-right: 5vw; */
-        margin-left: 5vw;
+@media screen and (max-width: 746px) {
+  #headshot {
+    width: 80%;
+    height: auto;
+    border-radius: 80%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    /* margin-right: 5vw; */
+    margin-left: 5vw;
+  }
 
-    }
-
-    .hero_container{
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .hero_container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
-.quotes_container{
+.quotes_container {
   background-color: rosybrown;
   display: flex;
   flex-direction: column;
@@ -240,4 +224,42 @@ h1.hero_bio{
   margin-right: 2%;
   margin-top: 100px;
   margin-bottom: 100px;
+
+  padding-bottom: 10px;
+}
+
+.DropMeaMsg_button {
+  /* align-self: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* display: flex; */
+  /* display: block; */
+  /* align-self: center; */
+  padding: 2;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  /* border-color: rgb(216, 229, 231); */
+  /* background-color: none; */
+  box-shadow: inset 26px 26px 52px #d3cece, inset -26px -26px 52px #ffffff;
+}
+
+.DropMeaMsg_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  background: url("../../assets/images/white_gradient3.jpg");
+  height: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  object-fit: cover;
+  background-size: cover;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+  /* height: 100%; */
 }
