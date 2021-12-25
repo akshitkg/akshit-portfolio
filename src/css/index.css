@@ -148,8 +148,12 @@ body {
 .footer {
   width: 100%;
   bottom: 0px;
+<<<<<<< HEAD
+  background-color: rgb(0, 0, 0);
+=======
   background-color: rgb(3, 3, 3);
   height: 130px;
+>>>>>>> updating
 }
 
 .footer_container {
@@ -162,6 +166,7 @@ body {
 .footer__copyright{
   color: white
 }
+
 
 /* Hero here onwards */
 
