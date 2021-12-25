@@ -149,6 +149,7 @@ body {
   width: 100%;
   bottom: 0px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgb(3, 3, 3);
   height: 130px;
 =======
@@ -159,10 +160,15 @@ body {
   height: 130px;
 >>>>>>> updating
 >>>>>>> updating
+=======
+  background-color: rgb(3, 3, 3);
+  height: 130px;
+>>>>>>> updating
 }
 
 .footer_container {
   display: flex;
+  background-color: rgb(3, 3, 3);
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 9px;
