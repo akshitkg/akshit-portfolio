@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
+    /* background-color: lavender; */
 }
 
 .contact_container{
@@ -64,7 +65,7 @@ body{
     margin-right: 20px;
 }
 
-.reddit_svg{
+.instagram_svg{
     height: 30px;
     color: black;
 }
@@ -77,6 +78,7 @@ body{
     font-family: 'Raleway', sans-serif;
     border-radius: 20px;
     padding: 10px;
+    cursor: pointer;
     border:none;
     background: linear-gradient(145deg, #f5f1f1, #cecbcb);
     box-shadow:  11px 11px 20px #7c7a7a,
