@@ -55,11 +55,11 @@ body {
 }
 
 /* .toggle_button .bars{
-    height: 2px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-} */
+      height: 2px;
+      width: 100%;
+      background-color: white;
+      border-radius: 10px;
+  } */
 
 #bar1 {
   height: 2px;
@@ -127,59 +127,84 @@ body {
   margin-top: 75px;
 }
 
-.name_column{
-    margin: 15px;
-    font-family: "Raleway", sans-serif;
-    box-shadow: inset 5px 5px 10px #bebebe,
-            inset -5px -5px 10px #ffffff;
-    border: none;
-    width: auto;
-    height: 50px;
-    border-radius: 50px;
+.name_column {
+  margin: 15px;
+  font-family: "Raleway", sans-serif;
+  box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+  border: none;
+  width: auto;
+  height: 50px;
+  border-radius: 50px;
 }
 
-.name_column::placeholder{
-    position: absolute;
-    align-self: center;
-    justify-self: center;
-    margin-left: 10px;
-    padding-left: 10px;
-    padding-top: 16px;
+.name_column::placeholder {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 16px;
 }
 
-.name_column::after{
-    text-align: center;
+.name_column::after {
+  text-align: center;
 }
-
 
 .email_column {
   margin: 15px;
   font-family: "Raleway", sans-serif;
+  box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+  border: none;
+  width: auto;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.email_column::placeholder {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 16px;
 }
 
 .message_column {
-  margin-top: none;
   margin: 15px;
   font-family: "Raleway", sans-serif;
-  height: auto; 
-  min-height: 100px;
-  width: 40%;
+  box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+  border: none;
+  width: auto;
+  height: 150px;
+  border-radius: 10px;
   /* min-width: 10%; */
   /* display: flex; */
   /* justify-items: flex-start; */
 }
 
+.message_column::placeholder {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-top: 16px;
+}
+
 /* .message_column::placeholder{
-    position: absolute;
+      position: absolute;
+  
+  } */
 
-} */
-
-.submit_button{
-    width: auto;
-    padding: 10px;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 15px;
-    cursor: pointer;
+.submit_button {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  margin-top: 30px;
+  border: none;
+  box-shadow: inset 26px 26px 52px #d3cece, inset -26px -26px 52px #ffffff;
 }

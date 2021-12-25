@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./testing.css" />
-    <title>Testing it</title>
-  </head>
-  <body>
-    <div class="hero_container">
-      <div class="hero_items">
-        <h1 class="grid_items" id="hello">Hey Friends</h1>
-        <h2 class="grid_items" id="name">
-          My name is Akshit Kumar Gautam and<br />I am interested in learning
-          and exploring new things
-        </h2>
-        <h3 class="grid_items" id="newsletter_info">
-          I also have a Newsletter where I mention my personal observations and
-          experiences
-        </h3>
-        <div class='newsletter_subscribe'>
-            <h4 class="grid_items" id="subscribe_info">
-                Subscribe to my Newsletter
-              </h4>
-              <button class="grid_items" id="subscribe_button">Subscribe</button>
-              <p class="grid_items" id="no_spam">NO SPAM🙌🏻<br />Pinky Promise🤝🏻</p>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/testing.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/images/signature_white.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/3f86b0dfcd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Navbar</title>
+</head>
+<body>
+    <nav class='navbar'>
+        <div class='logo'>
+            <a href="../../index.html"><img src="../../assets/images/akshitkg_2.png" alt=""></a>
         </div>
-        
-        
-    </div>
 
-    <img id="headshot" src="../../assets/images/akshits_image.png" alt="" />
-      
-    </div>
-  </body>
+        <a class='toggle_button' href="#">
+            <span class='bars' id='bar1'></span>
+            <span class='bars' id='bar2'></span>
+            <span class='bars' id='bar3'></span>
+        </a>
+
+        <div class='navbar_links'>
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Interests</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Newsletter</a></li>
+            </ul>
+        </div>
+
+        
+    </nav>
+    <script src="../js/index.js"></script>
+</body>
 </html>

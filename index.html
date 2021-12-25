@@ -8,6 +8,11 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/images/signature_white.png"
+    />
     <script
       src="https://kit.fontawesome.com/3f86b0dfcd.js"
       crossorigin="anonymous"
@@ -16,55 +21,32 @@
 
     <title>Akshit Kumar Gautam</title>
     <link rel="stylesheet" href="./src/css/index.css" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/images/signature_white.png"
-    />
+    
   </head>
   <body>
-    <div class="header">
-      <div class="header_logo">
-        <a href="./index.html"
-          ><img
-            id="header_logo__img"
-            src="./assets/images/akshitkg_2.png"
-            alt="Akshit"
-        /></a>
-      </div>
+    <nav class='navbar'>
+        <div class='logo'>
+            <a href="#"><img src="../../assets/images/akshitkg_2.png" alt=""></a>
+            
+        </div>
 
-      <div class="navbar_container">
-        <nav class="navbar">
-          <ul class="navbar_items">
-            <!-- align them row wise -->
+        <a class='toggle_button' href="#">
+            <span class='bars' id='bar1'></span>
+            <span class='bars' id='bar2'></span>
+            <span class='bars' id='bar3'></span>
+        </a>
 
-            <a href="./src/pages/aboutme.html">
-              <li class="navbar_items__item">
-                <button class="navbar_items__item_button">About me</button>
-              </li>
-            </a>
+        <div class='navbar_links'>
+            <ul>
+                <li><a href="./src/pages/aboutme.html">About Me</a></li>
+                <li><a href="./src/pages/interests.html">Interests</a></li>
+                <li><a href="./src/pages/contact.html">Contact</a></li>
+                <li><a href="./src/pages/newsletter.html">Newsletter</a></li>
+            </ul>
+        </div>
 
-            <a href="./src/pages/interests.html">
-              <li class="navbar_items__item">
-                <button class="navbar_items__item_button">Interests</button>
-              </li>
-            </a>
-
-            <a href="./src/pages/contact.html">
-              <li class="navbar_items__item">
-                <button class="navbar_items__item_button">Contact</button>
-              </li>
-            </a>
-
-            <a href="./src/pages/newsletter.html">
-              <li class="navbar_items__item">
-                <button class="navbar_items__item_button">Newsletter</button>
-              </li>
-            </a>
-          </ul>
-        </nav>
-      </div>
-    </div>
+        
+    </nav>
 
     <div class="hero_container">
       <div class="hero_items">
@@ -85,7 +67,8 @@
           <h4 class="grid_items" id="subscribe_info">
             Subscribe to my Newsletter
           </h4>
-          <button class="grid_items" id="subscribe_button">Subscribe</button>
+          <a href="./src/pages/newsletter.html"><button class="grid_items" id="subscribe_button">Subscribe</button></a>
+          
           <p class="grid_items" id="no_spam">
             NO SPAM🙌🏻<br />Pinky Promise🤝🏻
           </p>
@@ -95,7 +78,7 @@
     </div>
 
     <div class="DropMeaMsg_container">
-      <a href="./src/pages/dropmeamsg.html">
+      <a href="./src/pages/contact.html">
         <button class="DropMeaMsg_button">Contact Me</button>
       </a>
 
@@ -110,6 +93,7 @@
     <div class='quote'>
         <h1>Simplicity is the ultimate sophistication</h1>
         <h3 id='quote_author'>-Leonardo Da Vinci</h3>
+        <img id= 'horizontal_divider' src="./assets/images/divider.png" alt="">
         
             
 <<<<<<< HEAD
@@ -126,22 +110,16 @@
         
     </div>
 
-    <div class="notes">
-      <ul>
-        <li>
-          add a quote functionality(below that 'some_description' part)using js
-          that will change on clicking it
-        </li>
-        <li>
-          in hero bio, use appropriate greeting according to viewer's time
-        </li>
-        <li>add education, experience and much more in the about page</li>
-        <li>
-          Basically, try to cover all your aspects in this portfolio website and
-          also make it very very joyful to read
-        </li>
-      </ul>
+    <div class='SuggestChanges_container'>
+        
+        <a href="./src/pages/dropmeamsg.html">
+            <button class="DropMeaMsg_button">Help us improve</button>
+          </a>
+
+        <p>Get a chance to be featured in site's wiki by suggesting some quality edits in site's look and functionality</p>
     </div>
+
+    
     <footer class="footer">
       <div class="footer_container">
         <div class="footer__copyright">
@@ -154,6 +132,6 @@
     </footer>
 >>>>>>> updating
 
-    <!-- <script src="./src/js/index.js"></script> -->
+    <script src="./src/js/index.js"></script>
   </body>
 </html>

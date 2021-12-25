@@ -12,6 +12,7 @@
 body {
   background-color: var(--whitish);
   font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
 }
 
 .svg-inline--fa_fa-book-skull {
@@ -23,75 +24,114 @@ body {
   height: 25px;
 }
 
-.header {
-  display: flex;
-  border-radius: 10px;
-  height: 80px;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-}
-
-.header_logo {
-  margin-right: 20%;
-  padding: 10px;
-}
-
-#header_logo__img {
-  height: 40px;
-  width: 130px;
-  object-fit: contain;
-  /* is it responsive? */
-}
-
 .navbar {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-right: 10%;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  justify-content: space-between;
-}
-
-.navbar_items {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0px;
-  width: 400px;
-  justify-content: space-between;
-  list-style: none;
-}
-
-.navbar_items__item_button {
-  border: 0px;
-  width: 100%;
-  padding: 0px;
-  background-color: transparent;
   font-weight: bold;
-  width: 100%;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
-/* @media screen and (max-width: 870px){
-  .hero{
-    display: flex;
-    flex-wrap: wrap;
-  }
+.logo {
+  padding: 25px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
 
+.navbar_links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* color: white; */
+}
+
+.navbar_links li {
+  list-style: none;
+  /* color: azure; */
+}
+
+.navbar_links li a {
+  text-decoration: none;
+  color: black;
+  /* margin-right: 1rem; */
+  padding: 10px;
+  display: block;
+}
+
+.navbar_links li a:hover {
+  background-color: grey;
+}
+
+.toggle_button {
+  position: absolute;
+  margin-top: 45px;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+/* .toggle_button .bars{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 } */
 
-/* Site-Hero */
-
-/* .hero_bio {
-  padding: 50px;
+#bar1 {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+#bar2 {
+  height: 2px;
+  width: 75%;
+  background-color: black;
+  border-radius: 10px;
+}
+#bar3 {
+  height: 2px;
+  width: 25%;
+  background-color: black;
+  border-radius: 10px;
 }
 
-h1.hero_bio{
-  font-size: 200px;
+@media screen and (max-width: 768px) {
+  .toggle_button {
+    display: flex;
+  }
+
+  .navbar_links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar_links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar_links li {
+    text-align: center;
+    /* width: 100%; */
+  }
+  .navbar_links li a {
+    padding: 0.5rem 1rem;
+  }
+  .navbar_links.active {
+    display: flex;
+  }
 }
 #subscribe_button{
   grid-area: subscribe_button;
@@ -102,16 +142,6 @@ h1.hero_bio{
 }
 
 
-
-#hero_image_ {
-  object-fit: contain;
-  height: 400px;
-  border-radius: 200px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 40px;
-} */
 
 .brief_description {
   display: flex;
@@ -186,13 +216,21 @@ h1.hero_bio{
   font-size: 21px;
 }
 #subscribe_button {
+  font-family: "Raleway", sans-serif;
   justify-self: stretch;
-  background-color: blanchedalmond;
-  max-width: 50%;
-  min-width: 70px;
+  background-color: transparent;
+  cursor: pointer;
+  padding:0;
+  font-weight: bold;
+  font-size: 20px;
+  /* max-width: 50%;
+  min-width: 70px; */
+  width: 200px;
+  /* width: auto; */
   margin-bottom: none;
   height: 40px;
-  border: none;
+  /* border: none; */
+  border-width: 1px;
   border-radius: 10px;
 }
 #no_spam {
@@ -312,4 +350,18 @@ h1.hero_bio{
   /* align-self: stretch; */
   /* align-self: auto; */
   /* justify-self: right; */
+}
+
+.SuggestChanges_container{
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 40px;
+}
+
+#horizontal_divider{
+  margin-bottom: 50px;
 }

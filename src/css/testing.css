@@ -1,14 +1,9 @@
 .navbar {
-  font-weight: bold;
-  background-color: transparent;
+  background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: space-between;
   box-sizing: border-box;
-}
-
-body{
-  font-family: 'Raleway', sans-serif;
 }
 
 .logo {
@@ -34,8 +29,7 @@ body{
 .navbar_links li a {
   text-decoration: none;
   color: black;
-  /* margin-right: 1rem; */
-  padding: 10px;
+  padding: 1rem;
   display: block;
 }
 
@@ -64,19 +58,19 @@ body{
 #bar1 {
   height: 2px;
   width: 100%;
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
 }
 #bar2 {
   height: 2px;
   width: 75%;
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
 }
 #bar3 {
   height: 2px;
   width: 25%;
-  background-color: black;
+  background-color: white;
   border-radius: 10px;
 }
 
@@ -110,41 +104,4 @@ body{
   .navbar_links.active {
     display: flex;
   }
-}
-
-.interests {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
-}
-
-.have_many_interests {
-  object-fit: cover;
-}
-
-.have_many_interests img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.interest1 {
-  object-fit: cover;
-}
-
-.interest1 img {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
-}
-
-.interest_not_over {
-  object-fit: cover;
-}
-
-.interest_not_over img {
-  object-fit: contain;
-  height: 100%;
-  width: 100%;
 }
