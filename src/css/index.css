@@ -38,7 +38,8 @@ body {
 }
 
 #header_logo__img {
-  height: 80px;
+  height: 40px;
+  width: 130px;
   object-fit: contain;
   /* is it responsive? */
 }
@@ -141,7 +142,7 @@ h1.hero_bio{
 
 .hero_container {
   background-color: whitesmoke;
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   margin-top: 5%;
@@ -244,7 +245,7 @@ h1.hero_bio{
   /* display: flex; */
   /* display: block; */
   /* align-self: center; */
-  padding: 2;
+  padding: 20px;
   font-size: 20px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
@@ -259,13 +260,18 @@ h1.hero_bio{
 
 .DropMeaMsg_container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* justify-content: space-between; */
+  /* justify-content: center; */
   align-items: center;
   margin-top: 70px;
-  background: url("../../assets/images/white_gradient3.jpg");
-  height: 150px;
+  /* background: url("../../assets/images/white_gradient3.jpg"); */
+  height: auto;
   margin-right: 20px;
   margin-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 20px;
   object-fit: cover;
   background-size: cover;
@@ -278,3 +284,25 @@ h1.hero_bio{
   /* text-decoration: ; */
 }
 
+.quote{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: auto;
+  margin-bottom: 50px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+
+
+#quote_author{
+  /* align-self: flex-end; */
+  /* display: flex; */
+  /* align-self: stretch; */
+  /* align-self: auto; */
+  /* justify-self: right; */
+}
