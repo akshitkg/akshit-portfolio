@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- <script src="index.css"></script> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,44 +11,89 @@
       href="https://fonts.googleapis.com/css2?family=Raleway&family=Rubik:wght@300&display=swap"
       rel="stylesheet"
     />
-
-</head>
-<body>
-    <div class="main_container">
-        
-        <form   
-        class='form_body'
-          action="https://formsubmit.co/akshitkumargautam@gmail.com"
-          method="POST"
-        />
-
-        <h1>Drop your message here</h1>
-
-        <input class='name_column' type="text" name="Name" placeholder="Name" required>
-  
-        <input class='email_column' type="email" name="Email" placeholder="Enter Email" required />
-  
-        <input
-        class="message_column"
-          type="text"
-          name="Message"
-          placeholder="Enter your message here"
-          required
-        />
-  
-        <button class='submit_button' type="submit">Shoot🎯</button>
-  
-        <input type="text" name="_honey" style="display: none;" />
-  
-        <input
-          type="hidden"
-          name="_autoresponse"
-          value="Glad to see you! I will reply to your message ASAP."
-        />
-
-        <input type="hidden" name="_subject" value="Message Drop from Akshit-Portfolio site">
-  
-        <input type="hidden" name="_template" value="table" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../../assets/images/signature_white.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/3f86b0dfcd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="../../index.html"><img src="../../assets/images/akshitkg_2.png" alt=""></a>
       </div>
-</body>
+
+      <a class="toggle_button" href="#">
+        <span class="bars" id="bar1"></span>
+        <span class="bars" id="bar2"></span>
+        <span class="bars" id="bar3"></span>
+      </a>
+
+      <div class="navbar_links">
+        <ul>
+          <li><a href="./aboutme.html">About Me</a></li>
+          <li><a href="./interests.html">Interests</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./newsletter.html">Newsletter</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main_container">
+      <form
+        class="form_body"
+        action="https://formsubmit.co/akshitkumargautam@gmail.com"
+        method="POST"
+      />
+
+      <h1>Drop your message here</h1>
+
+      <input
+        class="name_column"
+        type="text"
+        name="Name"
+        placeholder="Name"
+        required
+      />
+
+      <input
+        class="email_column"
+        type="email"
+        name="Email"
+        placeholder="Enter Email"
+        required
+      />
+
+      <input
+        class="message_column"
+        type="text"
+        name="Message"
+        placeholder="Enter your message here"
+        required
+      />
+
+      <button class="submit_button" type="submit">Shoot🎯</button>
+
+      <input type="text" name="_honey" style="display: none" />
+
+      <input
+        type="hidden"
+        name="_autoresponse"
+        value="Glad to see you! I will reply to your message ASAP."
+      />
+
+      <input
+        type="hidden"
+        name="_subject"
+        value="Message Drop from Akshit-Portfolio site"
+      />
+
+      <input type="hidden" name="_template" value="table" />
+    </div>
+    <script src="../js/index.js"></script>
+  </body>
 </html>

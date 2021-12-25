@@ -2,6 +2,116 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.navbar {
+  font-weight: bold;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.logo {
+  padding: 25px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar_links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* color: white; */
+}
+
+.navbar_links li {
+  list-style: none;
+  /* color: azure; */
+}
+
+.navbar_links li a {
+  text-decoration: none;
+  color: black;
+  /* margin-right: 1rem; */
+  padding: 10px;
+  display: block;
+}
+
+.navbar_links li a:hover {
+  background-color: grey;
+}
+
+.toggle_button {
+  position: absolute;
+  margin-top: 45px;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+/* .toggle_button .bars{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+} */
+
+#bar1 {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+#bar2 {
+  height: 2px;
+  width: 75%;
+  background-color: black;
+  border-radius: 10px;
+}
+#bar3 {
+  height: 2px;
+  width: 25%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .toggle_button {
+    display: flex;
+  }
+
+  .navbar_links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar_links ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar_links li {
+    text-align: center;
+    /* width: 100%; */
+  }
+  .navbar_links li a {
+    padding: 0.5rem 1rem;
+  }
+  .navbar_links.active {
+    display: flex;
+  }
+}
+
 .main_container {
   display: flex;
   flex-direction: column;
