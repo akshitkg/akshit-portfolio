@@ -1,78 +1,38 @@
-body{
-    overflow-x: hidden;
-    font-family: 'Raleway', sans-serif;
+
+.interests{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
 
-.interests_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: aqua;
-    background: #f3f7f8;
-    /* justify-content: stretch; */
-    /* justify-items: center; */
-    align-items: center;
-
-    margin-top: 20vh;
-    margin-bottom: 20vh;
-    margin-right: 10%;
-    margin-left: 10%;
-    
-    /* padding-top: 15px;
-    padding-bottom: 8px; */
-    /* padding-right: 4vw; */
-    /* padding-left: 6vw; */
-
-    border-radius: 20px;
-    background: #e0e0e0;
-    box-shadow:  24px 24px 35px #cecece,
-                -24px -24px 35px #f2f2f2;
-
-    width: auto;
-    height: auto;
-}
-
-.InterestsItems_container{
-    display: grid;
-    justify-items: center;
-    /* justify-content: space-between; */
-
-    margin-top: 5%;
-    margin-bottom: 5%;
-    
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    row-gap: 40px;
-    column-gap: 20px;
+.have_many_interests{
+  object-fit: cover;
 
 }
 
-.interests_items{
-    font-weight: bold;
-    /* font-size: minmax(3vw, 109px); */
-    font-size: 2vw;
-    text-decoration: none;
-    width: max-content;
-    font-family: 'Raleway', sans-serif;
-    
-    padding: 15px;
-    border:none;
-    border-radius: 50px;
-    background: linear-gradient(145deg, #cacaca, #f0f0f0);
-    box-shadow:  5px 5px 10px #c1c1c1,
-                -5px -5px 10px #e7e0e0;
+.have_many_interests img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-#consciousness{
-    grid-row: 6/7;
-    grid-column: 2/3;
+.interest1{
+  object-fit: cover;
 }
 
-@media  screen and (max-width: 760px) {
-    .InterestsItems_container{
-        display: flex;
-        /* grid-template-rows: repeat(16, 1fr); */
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+.interest1 img{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.interest_not_over{
+  object-fit: cover;
+}
+
+.interest_not_over img{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
