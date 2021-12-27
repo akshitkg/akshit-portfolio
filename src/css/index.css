@@ -133,6 +133,14 @@ body {
     display: flex;
   }
 }
+#subscribe_button{
+  grid-area: subscribe_button;
+}
+#hero_image{
+  grid-area: hero_image;
+  height: 100px;
+}
+
 
 
 .brief_description {
